@@ -1,0 +1,53 @@
+<head>
+  <title>Book Finder</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js"></script>
+
+</head>
+<body>
+  <div class="card">
+    <div class="login-box">
+    <h2>Find Book</h2>
+    <form onsubmit="return findBook()">
+      <div class="user-box">
+        <input list="books" name="code" id="code">
+      <datalist id="books">
+        <option value="The C++ Programming Language">
+        <option value="The Practice of Programming">
+        <option value="Close to the Machine">
+        <option value="The Art of Computer Programming">
+        <option value="Fundamentals of Computer Algorithms">
+        <option value="The Art of Unix Programming">
+        <option value="The Psychology of Computer Programming">
+        <option value="The Java Programming Language">
+        <option value="The Best Software Writing">
+        <option value="After the Software Wars">
+        <option value="Free Software, Free Society">
+        <option value="Patterns of Software">
+        <option value="Innovation Happens Elsewhere">
+        <option value="Introduction to Computer Science Using Python">
+        <option value="JavaScript: The Good Parts">
+        <option value="The Pragmatic Programmer">
+        <option value="Structure and Interpretation of Computer Programs">
+        <option value="Modern Operating Systems">
+        <option value="Introduction to Algorithms">
+
+      </datalist>
+
+      </div>
+      <!--<div class="user-box">
+        <input type="password" name="" required="">
+        <label>Password</label>
+      </div> -->
+      <input class="a" type="submit" value="Submit">
+    </form>
+      <div id="result"></div>
+
+
+  </div>
+  </div>
+<button class="bubbly-button"><a href="index2.html" target="_blank" style="color: white; text-decoration: none;">
+
+ Get Book List </a></button>
+
+</body>
